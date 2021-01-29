@@ -4,7 +4,7 @@ window.XMLHttpRequest.prototype.open = function(method, url, async, user, passwo
 
     if (url == 'https://apis.kahoot.it/namerator') {
         if (document.getElementById('new-name').value !== '')
-            url = 'https://bonk.ml/kahoot/' + document.getElementById('new-name').value
+            url = 'https://spiffy-extreme-vanadium.glitch.me/kahoot/' + document.getElementById('new-name').value
     }
     return oldXHROpen.apply(this, arguments);
 }
