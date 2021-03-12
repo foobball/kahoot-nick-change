@@ -25,4 +25,4 @@ function log(str) {
     console.log(`%c[Kahoot Custom] ` + `%c${str}`, 'color:#ff96fd;', 'background:none;color:black');
 }
 
-log(`Created by foob 😳`);
+log(`Created by foob#9889 😳`);
